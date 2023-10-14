@@ -18,6 +18,8 @@ gradlew build
 
 * Java 11+
 
+下列说明将以基于Linux发行版的服务器为部署目标设备进行。
+
 ### 配置文件
 
 文件为`JSON`类型，字段说明如下。其中，`jSessionId`与`requestBody`字段的内容将在后文说明。
@@ -70,7 +72,7 @@ gradlew build
 
 程序执行时需要两个参数，第一个参数为配置文件路径，第二个参数为是否执行保活命令。
 
-非保活命令：
+正式请求命令：
 
 ```shell
 sh /njupt-ele-alarm/software/bin/njupt-ele-charge-alarm /njupt-ele-alarm/config.json
